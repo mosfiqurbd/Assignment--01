@@ -1,0 +1,394 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  
+}
+/* navbar */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px;
+    background-color: white;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+    width: 100%;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: 700;
+    color: #333;
+}
+
+.nav-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    flex-grow: 1;
+
+}
+.nav-links{
+    display: flex;
+    justify-content: center;
+    flex: 1;
+}
+
+.nav-links ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    
+}
+.nav-links ul li a{
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+    padding: 10px 15px;
+}
+ul{
+    display: flex;
+ 
+
+}
+ul a{
+    
+    display: inline-block;
+    padding: 10px 15px;
+    text-align: center;
+    font-size: 20px;
+    width: auto;
+    
+}
+
+.nav-links a {
+    margin: 0 0;
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+.nav-links a:hover {
+    color: #8B5A2B;
+}
+
+.nav-icons {
+    display: flex;
+    gap: 30px;
+}
+
+.nav-icons a {
+    color: #333;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+
+.nav-icons a:hover {
+    color: #8B5A2B;
+}
+/* fill */
+.logos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.shop-header {
+    height: 40vh;
+    padding: 40px 10%;
+    background-color: #f9f9f9;
+    background-image: url('./image/back.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+}
+.breadcrumbs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.breadcrumbs a {
+    color: #666;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.breadcrumbs a:hover {
+    color: #8B5A2B;
+}
+
+.breadcrumbs .divider {
+    color: #999;
+}
+
+.shop-title {
+    display: flex;
+    justify-content: center;
+    font-size: 70px;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 30px;
+}
+/* feature */
+.features {
+    display: flex;
+    padding: 80px;
+    justify-content: space-around;
+    background-color: #f9f1e7;
+    text-align: center;
+    /* margin-bottom: -58px; */
+    
+    
+}
+
+.feature {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.feature img {
+    width: 40px;
+    height: 40px;
+}
+.text {
+    text-align: left;
+}
+.text h4 {
+    margin: 0;
+    font-size: 30px;
+    font-weight: bold;
+}
+.text p {
+    margin: 0;
+    font-size: 23px;
+    color: #777;
+    
+}
+.fonto-icon{
+    display: flex;
+    justify-content: start;
+    align-items:;
+}
+
+/* footer */
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 40px 80px;
+    background-color: #fff;
+    color: #000;
+    flex-direction: row;
+   
+}
+.footer-column {
+   flex: 1;
+
+}
+
+.footer-logo {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.footer-address {
+    font-size: 14px;
+    color: #666;
+    line-height: 1.5;
+}
+
+.footer-column h3 {
+    font-size: 14px;
+    color: #aaa;
+    margin-bottom: 10px;
+}
+
+.footer-column ul {
+    list-style: none;
+}
+
+.footer-column ul li {
+    margin-bottom: 8px;
+}
+
+.footer-column ul li a {
+    text-decoration: none;
+    color: #000;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.newsletter input {
+    width: 70%;
+    padding: 8px;
+    border: none;
+    border-bottom: 1px solid #000;
+    outline: none;
+    font-size: 14px;
+    color: #333;
+}
+
+.newsletter button {
+    background: none;
+    border: none;
+    font-weight: bold;
+    font-size: 14px;
+    cursor: pointer;
+    margin-left: 5px;
+}
+.shop{
+    flex-direction: column;
+}
+/* Billing details */
+.head {
+    text-align: center;
+    font-weight: bold;
+   margin: 80px;
+   padding: 5px;
+   font-size: 30px;
+}
+
+ label{
+    display: inline-block;
+    margin: 45px 46px;
+    padding: 7px 28px;
+    margin-bottom: 5px;
+    font-weight: bold;
+ }
+  select[id="text"]{
+    width: 80%;
+    margin: 80px 125px;
+    padding: 50px 30px;
+    border: 1px solid #ddd;
+    border-radius: 14px;  
+}
+
+ input[type="text"], select {
+    width: 80%;
+    margin: 80px 125px;
+    padding: 50px 30px;
+    border: 1px solid #ddd;
+    border-radius: 14px;  
+}
+input[type="email"], select {
+    width: 80%;
+    margin: 80px 125px;
+    padding: 50px 30px;
+    border: 1px solid #ddd;
+    border-radius: 14px;  
+}
+.addtion input[type="text"]{
+    text-align: center;
+    padding: 50px 30px;  
+}
+.first-name label{
+  margin: -50px;
+  margin-right: -106px;
+  
+}
+.first-name  input[type="text"], select {
+    width: 60%;
+    margin: -5px 32px;
+    padding: 48px 36px;
+    border: 1px solid #ddd;
+    border-radius: 14px;  
+}
+
+.first-name{
+    width: 100%;
+    display: flex;
+    justify-content: right; 
+    margin: 10px 10px;  
+    padding: 10px 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    
+}
+.first-name{
+text-align: center;
+}
+.billig {
+    display: flex;
+    align-items: center;
+       gap: 130px 130px;
+       
+}
+.payment-section{
+    flex: 1;
+    padding-right: 20px;
+    margin-right: -356px;
+    margin-bottom: 2500px;
+}
+.from-group{
+    flex: 1;
+    margin: 20px 0;
+    padding: 20px 0;
+    margin-bottom: 15px;
+    border-radius: 60%;
+}
+.produc-status{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.product-list {
+    margin: 20px 0;
+    flex: 1;
+}
+
+.product-item, .total-row {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 400px;
+
+}
+.line{
+    margin-right: 42%;   
+}
+.span{
+    font-size: 30px;
+    color: #c48447;
+
+}
+
+.total-row {
+    font-weight: bold;
+    border-top: 1px solid #eee;
+    padding-top: 10px;
+}
+
+.privacy-policy {
+    font-size: 14px;
+    color: #666;
+    margin: 20px 0;
+}
+
+.place-order-btn {
+    background-color: #fff;
+    color: #222;
+    margin:  12px 20px;
+    padding: 12px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 50%;
+}
+
+.place-order-btn:hover{
+    background-color: #ddd;
+
+}
+
+
+
+
+
+
